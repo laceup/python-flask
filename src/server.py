@@ -6,4 +6,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return json.dumps({"message":"Hello World from laceup!"})
+    return json.dumps
+
+@app.route("/hello")
+def hello():
+    return json.dumps({"message":"Hai!"})
