@@ -9,5 +9,5 @@ def hello():
     return json.dumps
 
 @app.route("/hello")
-def hello():
+def hai():
     return json.dumps({"message":"Hai!"})
