@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return json.dumps
+    return json.dumps({"message": "ok"})
 
 @app.route("/hello")
 def hai():
